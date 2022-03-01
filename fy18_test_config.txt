@@ -1,0 +1,31 @@
+[INPUT_SETTINGS]
+#options for input_type are "DB" or"CSV". If you specify DB, must specify cnxn_string and cursor_execute_string.
+#if you specify "CSV", you must specify csv_input_file
+input_type = CSV
+cnxn_string = 
+csv_input_file = data\FY18_test_incsv.txt
+
+[TERMS]
+search_terms_path = data\FY18_term_mappings.txt
+negex_triggers_path = data\negex_triggers.txt
+
+[OUTPUT]
+results_file = data\FY18_test_out.txt
+logging_file = data\FY18_test_log.txt
+
+[SEARCH_CONFIG]
+col_to_search = LITERAL_TEXT
+#columns in addition to output category variables that you want in each line of output
+output_columns = UNIQUE_ID, STATE
+#for now, allow one column for upfront value exclusion. format as comma-delimited where first is row where exclusion happens and
+#everything after are the things to exclude. This is optional
+upfront_val_inclusions = MEDICARE, 1
+upfront_val_exclusions = STATE, NEBRASKA
+#similarly, allow strings to search for near beginning of same column as col_to_search, comma-delimited
+upfront_string_exclusions = patient education
+overdose = True
+NER_model = C:\Users\your_path\en_core_web_sm\en_core_web_sm-3.0.0
+year_excluded = 2017
+custom_date_exclusion = 
+exclusion_drugs = data\drug_exclusions.txt
+output_zeros = False
