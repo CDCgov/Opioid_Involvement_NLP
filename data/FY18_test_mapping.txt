@@ -1,0 +1,5 @@
+Term,Category
+morphine,MORPHINE
+Oxycodone,OXY
+heroin,ILLICIT
+opioid,UNMAPPED

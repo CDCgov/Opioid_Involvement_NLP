@@ -1,0 +1,12 @@
+UNIQUE_ID,STATE,LITERAL_TEXT,MEDICARE
+123X,ALASKA,"Alaska resident prescribed oxycodone",1
+456X,ALASKA,"Alaska resident had several refills of oxycodone",0
+789Y,MICHIGAN,"Denies having used morphine",1
+012Y,MARYLAND,"Morphine found in urine screen test",1
+254P,CALIFORNIA,"Ms. Doe experienced opioid overdose Jan 1, 2017",1
+835T,NEW YORK,"Adult female, experienced heroin overdose Jan 1, 2016",1
+624X,COLORADO,"John Smith found unconscious. Probably cocaine overdose. Heroin also possible.",1
+826P,ILLINOIS,"Pt. found unconscious. Probably heroin overdose. Possibly cocaine.",1
+264X,TEXAS,"Patient education: Opioid overdoses have increased in recent years",1
+926P,NEBRASKA,"Previously admitted for opioid overdose",1
+964X,ARKANSAS,"Previously admitted for opioid overdose",1
