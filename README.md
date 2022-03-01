@@ -69,10 +69,10 @@ Where the first observation in the input is flagged for oxycodone, the second ob
 Running this code requires Python >= 3.4. 
 
 
-- [negex_adjusted.py](fy18_pcortf_nlp/negex_adjusted.py) (modified from original) 
-- [build_queries.py](fy18_pcortf_nlp/build_queries.py) 
-- [negation_triggers.txt](fy18_pcortf_nlp/data/negation_triggers.txt) 
-- keywords and their mappings as well as a sample input file and sample config file in ([data](fy18_pcortf_nlp/data))
+- [negex_adjusted.py](negex_adjusted.py) (modified from original) 
+- [build_queries.py](build_queries.py) 
+- [negation_triggers.txt](data/negation_triggers.txt) 
+- keywords and their mappings as well as a sample input file and sample config file in [data](data/)
 
 
 **Install 3rd party packages** 
