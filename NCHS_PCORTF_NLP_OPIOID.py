@@ -484,7 +484,7 @@ def parse_and_run(configfile):
 if __name__=="__main__":
     
     #User hard-coded configfile path
-    configfile = Path(r"data\path\here\FY18_test_config.txt")
+    configfile = Path(r"fy18_test_config.txt")
     if len(sys.argv) > 1:
         configfile = sys.argv[1]
         print(f"Configfile read in as {configfile}")
