@@ -212,6 +212,7 @@ def main_search(input_args):
 
 
     else:
+        import pyodbc
         logging.info(f"Connecting to database with connection string {cnxn_string} and starting cursor selection ...")
         cnxn = pyodbc.connect(cnxn_string)
         cursor = cnxn.cursor()
@@ -339,7 +340,6 @@ def parse_config(configfile):
 
     if config['INPUT_SETTINGS']['input_type'].upper().strip() == "DB":
         input_type="DB"
-        import pyodbc
         if ("cnxn_string" not in config['INPUT_SETTINGS']) or ("cursor_execute_string" not in config["INPUT_SETTINGS"]):
             raise KeyError("You specified input type as DB but did not specify cnxn_string or did not specify cursor_execute_string")
 
