@@ -4,7 +4,7 @@ FY18 Opioid Search in Clinical Notes
 
 Git ReadMe Draft
 
-Author: Nikki Adams; oxf7@cdc.gov
+Author: Nikki Adams; NAdams2@cdc.gov
 
 Last update: February 28, 2022
 
